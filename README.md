@@ -13,4 +13,6 @@ There are some additional extra options for each:
 - n=?; how many data points are being used
 - Choose between seconds display and h:mm:ss format, with various rounding options
 
+To use the component just copy the .dll file into the /Components directory of your LiveSplit folder. 
+
 For the calculation the next version will include a limit to last N data points, but currently the calculation is over all datapoints in the current .lss file. 
