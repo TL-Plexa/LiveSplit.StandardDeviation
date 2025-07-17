@@ -5,6 +5,8 @@ Current Std Dev - displays the Standard Deviation information for the current sp
 
 Previous Std Dev - displays the Standard Deviation information for the previous split, reading your live run and assessing it against historical performance. Useful for evaluating how "fun" RNG has been on this particular run. 
 
+You can enable either or both!
+
 There are some additional extra options for each:
 - Sigma comparison; how many standard deviations is the current/previous split away from average. Useful for contextualising things.
 - Average; what is the average for the current/previous split
