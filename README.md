@@ -7,6 +7,8 @@ Previous Std Dev - displays the Standard Deviation information for the previous 
 
 You can enable either or both!
 
+You can choose to calculate over all completed splits in your file or the last N completed splits. This is particularly useful if you've updated strats on a split and haven't reset your split to accommodate (hey we all do it). 
+
 There are some additional extra options for each:
 - Sigma comparison; how many standard deviations is the current/previous split away from average. Useful for contextualising things.
 - Average; what is the average for the current/previous split
