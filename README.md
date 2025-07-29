@@ -11,7 +11,10 @@ There are some additional extra options for each:
 - Sigma comparison; how many standard deviations is the current/previous split away from average. Useful for contextualising things.
 - Average; what is the average for the current/previous split
 - n=?; how many data points are being used
+- Show Percentile; this split is in the top x% of splits. 
 - Choose between seconds display and h:mm:ss format, with various rounding options
+
+There is an automatic outlier detection algorithm running which should catch most errors in split files, however some legitimate attempts may be caught in low sample size datasets. (In future, outlier detection will probably become a toggle).
 
 To use the component just copy the .dll file into the /Components directory of your LiveSplit folder. Everything in the VS Files is not required for using the component. The VS Files are raw Visual Studio code files for others to modify if they want to.
 
